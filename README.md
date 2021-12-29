@@ -1,3 +1,4 @@
 #Momentum
 
-JS got so much better?
+
+JS using localstorsy function
