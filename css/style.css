@@ -1,44 +1,4 @@
+@import "momentum.css";
 .hidden {
   display: none;
-}
-/*내가 꾸민 CSS임*/
-img {
-  pointer-events: none;
-  position: absolute;
-  width: 100vw;
-  z-index: -1;
-  object-fit: cover;
-  top: 0;
-}
-h1 {
-  color: rgb(255, 214, 255);
-  font: italic 3em "Fira Sans", serif;
-  font-weight: bold;
-  text-align: center;
-}
-
-#clock {
-  color: white;
-  text-align: center;
-  font-size: 10em;
-}
-#quote {
-  color: white;
-  text-align: center;
-  font: italic 1.5em "Fira Sans", serif, bold;
-}
-#weather {
-  color: white;
-  text-align: center;
-}
-#todo-list {
-  color: white;
-  text-align: center;
-}
-#todo-form {
-  text-align: center;
-}
-#login-form {
-  margin: auto;
-  text-align: center;
 }
