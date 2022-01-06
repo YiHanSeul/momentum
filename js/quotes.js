@@ -33,7 +33,7 @@ const quotes = [
         author: "-Theodore Roosevelt-",
     },
     {
-        quote: "Success is not final; failure is not fatal: It is the courage to continue that counts.",
+        quote: "Success is not final failure is not fatal: It is the courage to continue that counts.",
         author: "-Winston S. Churchill-",
     },
     {
