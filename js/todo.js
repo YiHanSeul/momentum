@@ -12,8 +12,9 @@ function saveToDos(){
 
 function deleteToDo(event){
     const li =event.target.parentElement; //target은 클릭된 HTML elment정보를 가져옴 parentElement는 클릭도니 Element의 부모를 가져옴
-    li.remove();
     toDos=toDos.filter(toDo => toDo.id !==parseInt(li.id));
+    li.remove();
+    
     saveToDos();
    
 }
@@ -25,7 +26,7 @@ function paintToDo(newTodo){
     const span=document.createElement("span");
     span.innerText=newTodo.text;
     const button=document.createElement("button");
-    button.innerText="X"
+    button.innerText="✓"
     button.addEventListener("click",deleteToDo);
     li.appendChild(span);
     li.appendChild(button);
